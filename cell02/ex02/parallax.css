@@ -1,0 +1,44 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.img1 {
+  background-image: url('https://marketplace.canva.com/EAFekZ_ly0g/1/0/1600w/canva-blue-%26-orange-abstract-ocean-with-sunset-watercolor-illustration-desktop-wallpaper-A3tpEkGiGdY.jpg');
+}
+
+.img2 {
+  background-image: url('https://cdn.wallpapersafari.com/19/62/NSblOf.jpg');
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 2px 3px 6px black;
+}
+
+.black-tap {
+  height: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+}
